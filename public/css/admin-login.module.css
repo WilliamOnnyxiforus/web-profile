@@ -1,0 +1,58 @@
+#loginContainer{
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(195deg, rgba(66, 66, 74, 0.6), rgba(25, 25, 25, 0.6)), url("../assets/images/bg-sign-in-basic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#loginCard{
+    margin-top: 50%;
+    overflow: visible;
+    flex-direction: column;
+    display: flex;
+}
+
+#loginLabel{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -24px;
+    padding: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+    opacity: 1;
+    background: linear-gradient(195deg, #49a3f1, #1A73E8);
+    color: #344767;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.25rem 1.25rem 0rem rgb(0 0 0 / 14%), 0rem 0.4375rem 0.625rem -0.3125rem rgb(0 187 212 / 40%);
+}
+
+#signInText{
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.375;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: #344767;
+    font-weight: 700;
+    letter-spacing: 0.00735em;
+    margin-top: 8px;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#loginForm{
+    padding: 24px;
+    padding-top: 32px;
+    opacity: 1;
+    background: transparent;
+    color: #344767;
+    box-shadow: none;
+    text-align: center;
+}

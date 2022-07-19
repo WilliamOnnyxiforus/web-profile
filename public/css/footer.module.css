@@ -1,0 +1,15 @@
+#footerContainer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 32px 0;
+}
+
+#leftFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: "0.875rem";
+}
